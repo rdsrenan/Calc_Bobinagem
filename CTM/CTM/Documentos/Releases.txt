@@ -1,0 +1,4 @@
+﻿#1 Criado diretorio github
+#2 Criado banco de dados
+#3 Criado Documentos
+#4 Criada as classes - Constantes, Formulas, Motor e Transformador

@@ -1,0 +1,3 @@
+﻿- Definir ordem de dados para calculos
+
+- Terminar de fazer o menu apor ordem dos calculos, usar struct para controle de opção ativa?
