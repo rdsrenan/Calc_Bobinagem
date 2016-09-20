@@ -10,4 +10,10 @@ namespace CTM.Classes
     {
         
     }
+
+    enum TipoCalculo
+    {
+        Trafo,
+        Motor
+    }
 }

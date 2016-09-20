@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bt_Transformador = new System.Windows.Forms.Button();
+            this.bt_transformador = new System.Windows.Forms.Button();
             this.bt_motor = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bt_avancar = new System.Windows.Forms.Button();
@@ -38,15 +38,15 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // bt_Transformador
+            // bt_transformador
             // 
-            this.bt_Transformador.Location = new System.Drawing.Point(157, 165);
-            this.bt_Transformador.Name = "bt_Transformador";
-            this.bt_Transformador.Size = new System.Drawing.Size(150, 100);
-            this.bt_Transformador.TabIndex = 0;
-            this.bt_Transformador.Text = "Transformador";
-            this.bt_Transformador.UseVisualStyleBackColor = true;
-            this.bt_Transformador.Click += new System.EventHandler(this.bt_Transformador_Click);
+            this.bt_transformador.Location = new System.Drawing.Point(157, 165);
+            this.bt_transformador.Name = "bt_transformador";
+            this.bt_transformador.Size = new System.Drawing.Size(150, 100);
+            this.bt_transformador.TabIndex = 0;
+            this.bt_transformador.Text = "Transformador";
+            this.bt_transformador.UseVisualStyleBackColor = true;
+            this.bt_transformador.Click += new System.EventHandler(this.bt_Transformador_Click);
             // 
             // bt_motor
             // 
@@ -56,11 +56,12 @@
             this.bt_motor.TabIndex = 1;
             this.bt_motor.Text = "Motor";
             this.bt_motor.UseVisualStyleBackColor = true;
+            this.bt_motor.Click += new System.EventHandler(this.bt_motor_Click);
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.bt_motor);
-            this.panel1.Controls.Add(this.bt_Transformador);
+            this.panel1.Controls.Add(this.bt_transformador);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(723, 375);
@@ -75,6 +76,7 @@
             this.bt_avancar.Text = "Avançar";
             this.bt_avancar.UseVisualStyleBackColor = true;
             this.bt_avancar.Visible = false;
+            this.bt_avancar.Click += new System.EventHandler(this.bt_avancar_Click);
             // 
             // bt_voltar
             // 
@@ -125,7 +127,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button bt_Transformador;
+        private System.Windows.Forms.Button bt_transformador;
         private System.Windows.Forms.Button bt_motor;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button bt_avancar;
