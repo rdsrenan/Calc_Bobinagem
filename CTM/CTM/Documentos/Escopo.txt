@@ -3,3 +3,8 @@
 - Apos definir ordem de obtenção de dados, completar a classe trafo.
 
 - Definir como chamar objto, no inicio ou no fim do menu. Como ficaria a associação das variaveis?
+
+
+
+------------------------------------------- Espaço reservado para definir ordem de calculos -----------------------------------------
+

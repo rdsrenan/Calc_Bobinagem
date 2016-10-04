@@ -107,6 +107,7 @@
             this.panel2.Size = new System.Drawing.Size(723, 375);
             this.panel2.TabIndex = 6;
             this.panel2.Visible = false;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Form1
             // 
