@@ -8,3 +8,24 @@
 
 ------------------------------------------- Espaço reservado para definir ordem de calculos -----------------------------------------
 
+----------- Principais caracteriscas em consideração ao tipo calculo
+
+Resfriamento forçado ou natural
+
+Potencia
+
+A partir do ferro?
+
+Monofasico ou trifasico
+
+Se trifasico a ligação será estrela ou triangulo
+
+Potencia desejada
+
+Quantidade de entradas e saidas, com max possivel
+
+
+
+----------- Principais caracteriscas em comum a todos tipos
+
+Permebialidade de fluxo magnetico - Gaus
